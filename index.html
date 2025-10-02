@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Alex Styles</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Creative Graphic Designer</h1>
+                <p class="hero-subtitle">Bringing ideas to life through thoughtful design and visual storytelling</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <span>Hero Image</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating meaningful visual experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello, I'm Alex Styles</h3>
+                    <p>With over 5 years of experience in graphic design, I specialize in creating compelling visual identities, digital designs, and print materials that connect with audiences and drive results.</p>
+                    <p>My approach combines strategic thinking with creative execution, ensuring every project not only looks beautiful but serves its intended purpose effectively.</p>
+                    
+                    <div class="skills">
+                        <h4>Core Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Brand Identity</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Digital Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Print Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">UI/UX Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Profile Image</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">A collection of my recent creative projects</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 1</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Design</h3>
+                            <p>Complete brand identity for a tech startup</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="digital">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 2</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Website Design</h3>
+                            <p>Modern e-commerce website design</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 3</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Magazine Layout</h3>
+                            <p>Editorial design for lifestyle magazine</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 4</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Logo Design</h3>
+                            <p>Logo design for restaurant chain</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="digital">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 5</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Mobile App UI</h3>
+                            <p>User interface design for fitness app</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Project 6</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Packaging Design</h3>
+                            <p>Product packaging for organic cosmetics</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next creative project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always excited to take on new challenges and collaborate with clients who value great design. Whether you need a complete brand identity or a specific design project, I'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <span>alex@alexstyles.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong>
+                            <span>New York, NY</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project">Project Type</label>
+                        <select id="project" name="project">
+                            <option value="">Select project type</option>
+                            <option value="branding">Brand Identity</option>
+                            <option value="website">Website Design</option>
+                            <option value="print">Print Design</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Alex Styles. All rights reserved.</p>
+                <p>Designed with passion and attention to detail.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
